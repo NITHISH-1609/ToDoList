@@ -55,6 +55,6 @@ app.get("/about",(req,res)=>{
 
 
 
-app.listen(process.env.PORT ||3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Started at port 3000");
 })
